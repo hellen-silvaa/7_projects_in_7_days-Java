@@ -67,15 +67,32 @@
 
 //Projeto aula 1
 
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner numero1Scanner = new Scanner(System.in);
+//        System.out.print("Digine o primeiro número: ");
+//        int numero1 = numero1Scanner.nextInt();
+//        Scanner numero2Scanner = new Scanner(System.in);
+//        System.out.print("Digine o segundo número: ");
+//        int numero2 = numero1Scanner.nextInt();
+//        int resultado = numero1 + numero2;
+//        System.out.println("O resultado e: " + resultado);
+//    }
+//
+//}
+
+import java.util.Scanner;
+
+//Desafio aula 1
 public class Main {
     public static void main(String[] args) {
         Scanner numero1Scanner = new Scanner(System.in);
         System.out.print("Digine o primeiro número: ");
-        int numero1 = numero1Scanner.nextInt();
-        Scanner numero2Scanner = new Scanner(system.in);
+        double numero1 = numero1Scanner.nextDouble();
+        Scanner numero2Scanner = new Scanner(System.in);
         System.out.print("Digine o segundo número: ");
-        int numero2 = numero1Scanner.nextInt();
-        int resultado = numero1 + numero2;
+        double numero2 = numero1Scanner.nextDouble();
+        double resultado = numero1 + numero2;
         System.out.println("O resultado e: " + resultado);
     }
 
